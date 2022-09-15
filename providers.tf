@@ -10,7 +10,6 @@ terraform {
 # Configura o Provider Google Cloud com o Projeto
 provider "google" {
 
-  credentials = file("/home/alan3_0henrique/gpckey.json")
 
   project = "labdevopscloud8aso-alan"
   region  = "us-east1"
